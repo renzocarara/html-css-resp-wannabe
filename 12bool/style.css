@@ -40,7 +40,7 @@
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 80px;
 }
 
