@@ -246,8 +246,6 @@
 /* *************** Mobile *************** */
 /* per schermi da 768px in giù */
 @media screen and (max-width: 768px) {
-
-    /* dimensioni screen da 0 a 768px */
     .row {
         width: 100%;
         margin: 0 auto;
