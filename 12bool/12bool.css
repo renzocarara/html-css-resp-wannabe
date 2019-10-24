@@ -10,7 +10,7 @@
 /* tutte le colonne sono flottate */
 [class^="col-"] {
     float: left;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 /* clearfix sulla riga */
