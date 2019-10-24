@@ -21,14 +21,14 @@
 }
 
 /* *************** Desktop *************** */
+/* dimensioni da 993px in su */
 .container {
     width: 100%;
-    margin: 0 auto;
 }
 
 .row {
-    width: 100%;
     max-width: 1170px;
+    margin: 0 auto;
 }
 
 .col-lg-1 {
@@ -135,6 +135,13 @@
 /* *************** Tablet *************** */
 /* per schermi da 992px in giù */
 @media screen and (max-width: 992px) {
+
+    /* dimensioni screen da 769px a 992px  */
+    .row {
+        width: 750px;
+        margin: 0 auto;
+    }
+
     .col-md-1 {
         width: calc(100% /12);
     }
@@ -239,6 +246,13 @@
 /* *************** Mobile *************** */
 /* per schermi da 768px in giù */
 @media screen and (max-width: 768px) {
+
+    /* dimensioni screen da 0 a 768px */
+    .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .col-sm-1 {
         width: calc(100% /12);
     }
